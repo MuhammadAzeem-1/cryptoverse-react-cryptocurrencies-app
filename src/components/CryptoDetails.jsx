@@ -35,8 +35,9 @@ const CryptoDetails = () => {
 
   if (isFetching) return "Loading...";
 
+  // Time
   const time = ["3h", "24h", "7d", "30d", "1y", "3m", "3y", "5y"];
-
+  // Stats for each currency
   const stats = [
     {
       title: "Price to USD",
@@ -66,6 +67,7 @@ const CryptoDetails = () => {
     },
   ];
 
+  // genericStats for each currencies
   const genericStats = [
     {
       title: "Number Of Markets",
